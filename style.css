@@ -58,7 +58,7 @@ li{
     margin: 0.2em 0;
 }
 input{
-    width: 76%;
+    width: 70%;
     height: 1.8em;
 }
 form a{
@@ -105,7 +105,7 @@ footer{
     justify-content: space-between;
 }
 .baixarApp{
-    width: 22%;
+    width: 20%;
     margin-right:2em;
 }
 
@@ -114,7 +114,7 @@ footer ul{
     justify-content: space-between;
 }
 .playstore{
-    width: 14em;
+    width: 12em;
     height: 3em;
     border-radius: 5px;
     background-size: 90%;
@@ -125,10 +125,10 @@ footer ul{
     cursor: pointer;
 }
 .appstore{
-    width: 14em;
+    width: 12em;
     height: 3em;
     border-radius: 5px;
-    background-size: 100%;
+    background-size: 95%;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(https://www.gostei.com.br/wp-content/uploads/2021/06/app-store-badge-gostei-branco.svg);
