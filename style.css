@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'neo-sans';
+    src: url(neo-sans-pro-cufonfonts/NeoSansProRegular.OTF);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+}
+
+
+header{
+    background-color: #204AFF;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    margin: 0 3em;
+    height: 100%;
+}
+.logoUnit{
+    height: 60%;
+}
+
+.loginArea{
+    margin:auto auto;
+    width: 18vw;
+    border: 5px solid #204AFF;
+    border-radius: 5px;
+    padding: 1em;
+    font-family: 'neo-sans', sans-serif;
+    background-color: ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.2em 0;
+}
+input{
+    width: 76%;
+    height: 1.8em;
+}
+form a{
+    color: #2e53f8;
+    font-size: 0.9em;
+}
+.esqueciEntrar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+button{
+    height: 2em;
+    background: #204AFF;
+    color: #ffffff;
+    font-weight: 600;
+    width: 6em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+    cursor: pointer;
+}
+
+.butoes{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.butoes button:nth-child(2){
+    width: 8.5em;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #204AFF;
+    padding: 1em;
+    height:13vh;
+    color: #ffffff;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.baixarApp{
+    width: 22%;
+    margin-right:2em;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+.playstore{
+    width: 14em;
+    height: 3em;
+    border-radius: 5px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.gostei.com.br/wp-content/uploads/2021/06/google-play-badge-gostei-branco.svg);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.appstore{
+    width: 14em;
+    height: 3em;
+    border-radius: 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.gostei.com.br/wp-content/uploads/2021/06/app-store-badge-gostei-branco.svg);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
